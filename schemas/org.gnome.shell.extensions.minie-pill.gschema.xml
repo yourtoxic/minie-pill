@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.minie-pill" path="/org/gnome/shell/extensions/minie-pill/">
+
+    <!-- visibility / behaviour -->
+    <key name="always-visible" type="b"><default>true</default><summary>Pill always visible</summary></key>
+    <key name="clock-always" type="b"><default>true</default><summary>Always show clock when idle</summary></key>
+    <key name="clock-24h" type="b"><default>true</default><summary>24-hour clock</summary></key>
+    <key name="clock-seconds" type="b"><default>true</default><summary>Show seconds</summary></key>
+    <key name="scroll-switch" type="b"><default>true</default><summary>Scroll on pill switches activity</summary></key>
+
+    <!-- appearance -->
+    <key name="pill-height" type="i"><range min="22" max="64"/><default>34</default><summary>Pill height</summary></key>
+    <key name="pill-top-margin" type="i"><range min="0" max="60"/><default>3</default><summary>Distance from top edge</summary></key>
+    <key name="width-mode" type="s"><choices><choice value="dynamic"/><choice value="fixed"/></choices><default>"dynamic"</default><summary>Width mode</summary></key>
+    <key name="fixed-width" type="i"><range min="80" max="640"/><default>240</default><summary>Fixed width</summary></key>
+    <key name="font-size" type="i"><range min="9" max="26"/><default>13</default><summary>Font size</summary></key>
+    <key name="bg-color" type="s"><default>"#000000"</default><summary>Background colour</summary></key>
+    <key name="text-color" type="s"><default>"rgb(255,255,255)"</default><summary>Text colour</summary></key>
+    <key name="accent-color" type="s"><default>"rgb(77,163,255)"</default><summary>Accent colour</summary></key>
+    <key name="border-enabled" type="b"><default>true</default><summary>Border</summary></key>
+    <key name="border-color" type="s"><default>"rgba(255,255,255,0.5)"</default><summary>Border colour</summary></key>
+    <key name="animation-speed" type="i"><range min="30" max="300"/><default>100</default><summary>Animation speed (percent)</summary></key>
+    <key name="panel-width" type="i"><range min="360" max="900"/><default>460</default><summary>Expanded panel width</summary></key>
+
+    <!-- activities -->
+    <key name="music-enabled" type="b"><default>true</default><summary>Music activity</summary></key>
+    <key name="lyrics-enabled" type="b"><default>true</default><summary>Fetch synced lyrics (lrclib.net)</summary></key>
+    <key name="lyrics-in-pill" type="b"><default>true</default><summary>Show current lyric line in pill</summary></key>
+    <key name="bt-enabled" type="b"><default>true</default><summary>Bluetooth activity</summary></key>
+    <key name="wifi-enabled" type="b"><default>true</default><summary>Wi-Fi activity</summary></key>
+    <key name="dnd-enabled" type="b"><default>true</default><summary>Do Not Disturb indicator</summary></key>
+    <key name="notif-enabled" type="b"><default>true</default><summary>Show notifications in pill</summary></key>
+    <key name="notif-duration" type="i"><range min="1" max="30"/><default>5</default><summary>Notification duration (s)</summary></key>
+    <key name="notification-width" type="i"><range min="220" max="760"/><default>420</default><summary>Notification width</summary></key>
+    <key name="notification-font-size" type="i"><range min="10" max="26"/><default>14</default><summary>Notification font size</summary></key>
+    <key name="hide-default-banner" type="b"><default>true</default><summary>Hide default GNOME banners</summary></key>
+    <key name="osd-enabled" type="b"><default>true</default><summary>Volume/brightness OSD in pill</summary></key>
+    <key name="workspace-enabled" type="b"><default>true</default><summary>Workspace switch indicator</summary></key>
+    <key name="instant-duration" type="i"><range min="500" max="8000"/><default>1800</default><summary>OSD duration (ms)</summary></key>
+    <key name="status-duration" type="i"><range min="1000" max="10000"/><default>3500</default><summary>Status event duration (ms)</summary></key>
+
+    <!-- panel features -->
+    <key name="clipboard-enabled" type="b"><default>true</default><summary>Clipboard history</summary></key>
+    <key name="clipboard-max" type="i"><range min="5" max="100"/><default>30</default><summary>Clipboard history size</summary></key>
+    <key name="shelf-uris" type="as"><default>[]</default><summary>File shelf items</summary></key>
+    <key name="timer-minutes" type="i"><range min="1" max="600"/><default>5</default><summary>Default timer minutes</summary></key>
+    <key name="week-start-monday" type="b"><default>false</default><summary>Week starts on Monday</summary></key>
+    <key name="weather-name" type="s"><default>""</default><summary>Weather location name</summary></key>
+    <key name="weather-lat" type="d"><default>0.0</default><summary>Latitude</summary></key>
+    <key name="weather-lon" type="d"><default>0.0</default><summary>Longitude</summary></key>
+    <key name="weather-units" type="s"><choices><choice value="metric"/><choice value="imperial"/></choices><default>"metric"</default><summary>Units</summary></key>
+
+    <!-- motion / shape -->
+    <key name="spring-mass" type="d"><range min="0.2" max="5.0"/><default>1.0</default><summary>Spring mass</summary></key>
+    <key name="spring-stiffness" type="d"><range min="60.0" max="2000.0"/><default>420.0</default><summary>Spring stiffness</summary></key>
+    <key name="spring-damping" type="d"><range min="2.0" max="120.0"/><default>22.0</default><summary>Spring damping (lower = bouncier)</summary></key>
+    <key name="corner-smoothing" type="i"><range min="0" max="100"/><default>15</default><summary>Squircle corner smoothing</summary></key>
+    <key name="notification-height" type="i"><range min="40" max="220"/><default>76</default><summary>Notification height</summary></key>
+    <key name="weather-in-pill" type="b"><default>true</default><summary>Show weather in pill</summary></key>
+    <key name="status-badges" type="b"><default>true</default><summary>Show DND / caffeine / airplane badges in pill</summary></key>
+
+    <!-- popup size, status dot, clock font -->
+    <key name="panel-height" type="i"><range min="240" max="760"/><default>390</default><summary>Popup body height</summary></key>
+    <key name="dot-mode" type="s"><choices><choice value="always"/><choice value="mic"/><choice value="off"/></choices><default>"mic"</default><summary>Status dot mode</summary></key>
+    <key name="dot-position" type="s"><choices><choice value="left"/><choice value="middle"/><choice value="right"/><choice value="custom"/></choices><default>"right"</default><summary>Status dot position</summary></key>
+    <key name="dot-color" type="s"><default>"rgb(52,199,89)"</default><summary>Status dot colour</summary></key>
+    <key name="dot-size" type="i"><range min="4" max="16"/><default>7</default><summary>Status dot size</summary></key>
+    <key name="dot-offset-x" type="i"><range min="-500" max="500"/><default>0</default><summary>Dot offset X (custom)</summary></key>
+    <key name="dot-offset-y" type="i"><range min="-40" max="40"/><default>0</default><summary>Dot offset Y (custom)</summary></key>
+    <key name="clock-font" type="s"><default>""</default><summary>Clock font (Pango description, empty = default)</summary></key>
+    <key name="clock-font-size" type="i"><range min="0" max="72"/><default>0</default><summary>Clock text size (0 = same as pill)</summary></key>
+
+    <!-- shape / border / dot inset -->
+    <key name="pill-roundness" type="i"><range min="0" max="100"/><default>100</default><summary>Corner roundness (100 = full capsule)</summary></key>
+    <key name="border-width" type="i"><range min="1" max="4"/><default>1</default><summary>Border width</summary></key>
+    <key name="dot-inset" type="i"><range min="0" max="60"/><default>16</default><summary>Dot distance from the pill edge</summary></key>
+
+    <!-- cat -->
+    <key name="cat-enabled" type="b"><default>true</default><summary>Cat walks across the pill</summary></key>
+    <key name="cat-interval" type="i"><range min="5" max="3600"/><default>30</default><summary>Seconds between cat appearances</summary></key>
+    <key name="cat-speed-min" type="i"><range min="30" max="1200"/><default>90</default><summary>Slowest cat speed (px/s)</summary></key>
+    <key name="cat-speed-max" type="i"><range min="30" max="1200"/><default>220</default><summary>Fastest cat speed (px/s)</summary></key>
+    <key name="cat-direction" type="s"><choices><choice value="ltr"/><choice value="rtl"/><choice value="alternate"/><choice value="random"/></choices><default>"alternate"</default><summary>Cat direction</summary></key>
+    <key name="cat-width" type="i"><range min="200" max="900"/><default>360</default><summary>Pill width while the cat runs</summary></key>
+    <key name="cat-style" type="s"><choices><choice value="random"/><choice value="walker"/><choice value="runner"/><choice value="prowler"/><choice value="hopper"/><choice value="chaser"/><choice value="butterfly"/><choice value="fish"/><choice value="skater"/><choice value="duo"/></choices><default>"random"</default><summary>Cat sprite</summary></key>
+    <key name="cat-effect" type="s"><choices><choice value="none"/><choice value="random"/><choice value="paws"/><choice value="sparkles"/><choice value="hearts"/><choice value="dust"/><choice value="speed"/></choices><default>"random"</default><summary>Effect drawn behind the cat</summary></key>
+    <key name="cat-interval-jitter" type="b"><default>false</default><summary>Randomise the time between appearances (+-50%)</summary></key>
+    <key name="popup-on-click" type="b"><default>true</default><summary>Open the popup when the pill is clicked</summary></key>
+    <key name="content-offset-x" type="i"><range min="-12" max="12"/><default>0</default><summary>Nudge pill content horizontally</summary></key>
+    <key name="content-offset-y" type="i"><range min="-12" max="12"/><default>0</default><summary>Nudge pill content vertically</summary></key>
+    <key name="cat-trigger" type="i"><default>0</default><summary>Increment to show the cat now</summary></key>
+
+    <!-- downloads -->
+    <key name="download-enabled" type="b"><default>true</default><summary>Show downloads in pill</summary></key>
+    <key name="download-dir" type="s"><default>""</default><summary>Extra folder to watch for downloads</summary></key>
+    <key name="download-net-enabled" type="b"><default>true</default><summary>Also detect downloads by network speed</summary></key>
+    <key name="download-net-threshold" type="i"><range min="100" max="100000"/><default>1500</default><summary>Network speed (KB/s) that counts as a download</summary></key>
+    <key name="record-enabled" type="b"><default>true</default><summary>Show screen recording status</summary></key>
+  </schema>
+</schemalist>

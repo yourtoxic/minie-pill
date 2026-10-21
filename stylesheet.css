@@ -1,0 +1,94 @@
+/* Minie Pill */
+.minie-pill {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #fff;
+    font-weight: 600;
+}
+.minie-badges { spacing: 6px; padding-right: 2px; }
+.minie-badge { color: rgba(255,255,255,0.85); }
+.minie-pill-content { min-width: 0; }
+.minie-act { spacing: 8px; }
+.minie-clock { font-weight: 700; }
+.minie-title { font-weight: 700; }
+.minie-text { font-weight: 600; }
+.minie-sub { color: rgba(255,255,255,0.6); font-weight: 500; }
+.minie-icon { color: inherit; }
+.minie-idle { background-color: rgba(255,255,255,0.25); border-radius: 2px; }
+.minie-viz { spacing: 2px; min-width: 18px; padding-left: 2px; }
+.minie-ws-dot { background-color: rgba(255,255,255,0.3); border-radius: 4px; }
+.minie-ws-dot.active { background-color: #fff; }
+.minie-osd-track { background-color: rgba(255,255,255,0.22); border-radius: 3px; }
+.minie-osd-fill { background-color: #fff; border-radius: 3px; }
+.minie-art-sm { border-radius: 6px; }
+
+/* expanded panel */
+.minie-panel {
+    color: #fff;
+    padding: 14px 16px 16px 16px;
+    spacing: 10px;
+}
+.minie-picker { border-radius: 24px; }
+.minie-tabs { spacing: 2px; }
+.minie-tab-btn { border-radius: 16px; padding: 7px 11px; color: rgba(255,255,255,0.6); }
+.minie-tab-btn:hover { background-color: rgba(255,255,255,0.1); color: #fff; }
+.minie-tab-btn:active, .minie-tab-btn:checked { background-color: rgba(255,255,255,0.16); }
+.minie-tab-btn:focus { background-color: rgba(255,255,255,0.1); }
+.minie-body { padding-top: 4px; }
+.minie-tab { spacing: 8px; }
+.minie-row { spacing: 10px; }
+.minie-card { background-color: rgba(255,255,255,0.07); border-radius: 18px; padding: 10px 12px; spacing: 4px; }
+.minie-big { font-size: 38px; font-weight: 800; }
+.minie-huge { font-size: 64px; font-weight: 800; }
+.minie-big-title { font-size: 16px; font-weight: 800; }
+.minie-art-lg { border-radius: 14px; }
+.minie-lyrics { spacing: 3px; }
+.minie-lyric-dim { color: rgba(255,255,255,0.4); font-size: 12px; }
+.minie-lyric-cur { color: #fff; font-size: 16px; font-weight: 800; }
+.minie-controls { spacing: 12px; }
+
+.minie-btn { border-radius: 99px; padding: 6px; color: rgba(255,255,255,0.85); }
+.minie-btn:hover, .minie-btn:focus { background-color: rgba(255,255,255,0.14); color: #fff; }
+.minie-btn:active { background-color: rgba(255,255,255,0.22); }
+.minie-btn-lg { padding: 10px; }
+.minie-btn-main { background-color: #fff; color: #000; }
+.minie-btn-main:hover, .minie-btn-main:focus { background-color: rgba(255,255,255,0.85); color: #000; }
+
+.minie-pillbtn { border-radius: 99px; padding: 6px 14px; background-color: rgba(255,255,255,0.12); color: #fff; font-weight: 700; }
+.minie-pillbtn:hover, .minie-pillbtn:focus { background-color: rgba(255,255,255,0.22); }
+.minie-pillbtn-main { padding: 10px 40px; font-size: 15px; }
+
+.minie-entry {
+    background-color: rgba(255,255,255,0.09); border-radius: 16px; padding: 9px 14px;
+    color: #fff; caret-color: #fff; selection-background-color: rgba(255,255,255,0.3);
+    border: 1px solid transparent;
+}
+.minie-entry:focus { border: 1px solid rgba(255,255,255,0.3); }
+.minie-entry StLabel.hint-text { color: rgba(255,255,255,0.45); }
+
+.minie-app-row { border-radius: 14px; padding: 6px 8px; spacing: 10px; }
+.minie-app-row:hover, .minie-app-row:focus, .minie-app-row:active { background-color: rgba(255,255,255,0.1); }
+.minie-clip-main { border-radius: 12px; padding: 6px 8px; text-align: left; }
+
+.minie-toggle { background-color: rgba(255,255,255,0.09); border-radius: 18px; padding: 12px 6px; margin: 3px; color: #fff; }
+.minie-toggle:hover, .minie-toggle:focus { background-color: rgba(255,255,255,0.16); }
+.minie-toggle-label { font-size: 11px; font-weight: 600; }
+
+.minie-cal-row { spacing: 2px; }
+.minie-cal-head { color: rgba(255,255,255,0.5); font-size: 11px; font-weight: 700; text-align: center; padding: 4px 0; }
+.minie-cal-day { text-align: center; padding: 7px 0; border-radius: 99px; margin: 1px; }
+.minie-forecast { spacing: 8px; }
+
+/* status dot */
+.minie-dot-btn { padding: 4px; border-radius: 99px; background-color: transparent; }
+.minie-dot-btn:hover { background-color: rgba(255,255,255,0.14); }
+.minie-dot-btn:active { background-color: rgba(255,255,255,0.24); }
+
+/* bluetooth chip + popup size buttons */
+.minie-bt-chip { background-color: rgba(255,255,255,0.14); border-radius: 99px; padding: 6px; }
+.minie-size-btn { padding: 2px 12px; font-size: 16px; font-weight: 800; }
+.minie-sizer { spacing: 6px; }
+
+/* screen recording */
+.minie-rec-dot { border-radius: 99px; }
