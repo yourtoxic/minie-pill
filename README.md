@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align="center">Minie Pill</h1>
 <p align="center">A Dynamic-Island style pill for the GNOME Shell top bar.<br>Clock, music + synced lyrics, notifications, Bluetooth, Wi-Fi, downloads, screen recording, a spring-physics popup, and a cat that runs across it.</p>
 
@@ -273,24 +272,3 @@ journalctl -f -o cat /usr/bin/gnome-shell | grep -i minie
 - **v4**: squircle + crisp border, cats, downloads, mic dot
 - **v3**: status dot, clock font, bluetooth icons
 - **v1-v2**: first release
-=======
-# Minie Pill v6
-
-Install:
-
-    chmod +x install.sh && ./install.sh
-
-Wayland: log out/in after first install or after updating.
-
-Logs:
-
-    journalctl -f -o cat /usr/bin/gnome-shell | grep -i minie
-
-Prefs:
-
-    gnome-extensions prefs minie-pill@toxic
-
-RAM / CPU report (A/B against gnome-shell):
-
-    tools/measure-usage.sh 60
->>>>>>> ddac03a (first commit)
