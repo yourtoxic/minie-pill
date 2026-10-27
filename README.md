@@ -33,7 +33,7 @@
 - Content fades out, pill resizes, new content fades in.
 - Custom colours (background, text, accent, border), height, width (dynamic or fixed), font size.
 
-<p align="center"><img src="docs/media/spring-animation.gif" alt="Spring animation GIF" width="720"></p>
+<p align="center"><img src="gif/bounce.gif" alt="Spring animation GIF" width="720"></p>
 <p align="center"><sub><i>Spring animation GIF — slow it down so the bounce is visible</i></sub></p>
 
 ### Clock
