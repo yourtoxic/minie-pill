@@ -7,7 +7,7 @@
   <img alt="License" src="https://img.shields.io/badge/license-add%20yours-lightgrey">
 </p>
 
-<p align="center"><img src="docs/media/hero.gif" alt="Hero GIF" width="720"></p>
+<p align="center"><img src="docs/media/hero.gif" alt="Hero GIF" width="320"></p>
 <p align="center"><sub><i>Hero GIF — the pill expanding, showing music, a notification, then the cat</i></sub></p>
 
 ---
