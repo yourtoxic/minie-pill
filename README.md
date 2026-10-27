@@ -173,7 +173,7 @@ The popup grows out of the pill (the pill hides while it is open).
 <p align="center"><sub><i>File shelf tab</i></sub></p>
 <p align="center"><img src="gif/controls_tab.png" alt="Controls tab"></p>
 <p align="center"><sub><i>Controls tab</i></sub></p>
-<p align="center"><img src="gif_timer_tab.png" alt="Timer tab"></p>
+<p align="center"><img src="gif/timer_tab.png" alt="Timer tab"></p>
 <p align="center"><sub><i>Timer tab</i></sub></p>
 
 ---
