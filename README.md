@@ -39,7 +39,7 @@
 ### Clock
 HH:MM:SS, 12 / 24 hour, seconds on/off, **custom text size and any installed system font**.
 
-<p align="center"><img src="docs/media/clock.png" alt="Clock screenshot" width="720"></p>
+<p align="center"><img src="gif/clock.gif" alt="Clock screenshot" ></p>
 <p align="center"><sub><i>Clock screenshot</i></sub></p>
 
 ### Music
@@ -48,15 +48,15 @@ HH:MM:SS, 12 / 24 hour, seconds on/off, **custom text size and any installed sys
 - **Synced lyrics** in the pill (from [lrclib.net](https://lrclib.net)). Turn it off in settings if you do not want track names sent.
 - Scroll over the pill while music plays to change the volume.
 
-<p align="center"><img src="docs/media/music-lyrics.gif" alt="Music + lyrics GIF" width="720"></p>
+<p align="center"><img src="gif/music.gif" alt="Music + lyrics GIF"></p>
 <p align="center"><sub><i>Music + lyrics GIF</i></sub></p>
-<p align="center"><img src="docs/media/scroll-volume.gif" alt="Scroll-to-change-volume GIF" width="720"></p>
+<p align="center"><img src="gif/music_volume.gif" alt="Scroll-to-change-volume GIF"></p>
 <p align="center"><sub><i>Scroll-to-change-volume GIF</i></sub></p>
 
 ### Notifications
 Every notification (system, apps, browsers) pops up in the pill. Width, height, text size and duration are all adjustable. Click it to open the app. GNOME's own banners can be hidden.
 
-<p align="center"><img src="docs/media/notification.gif" alt="Notification GIF" width="720"></p>
+<p align="center"><img src="gif/notification.gif" alt="Notification GIF"></p>
 <p align="center"><sub><i>Notification GIF</i></sub></p>
 
 ### Bluetooth, Wi-Fi, Do Not Disturb
@@ -64,23 +64,21 @@ Every notification (system, apps, browsers) pops up in the pill. Width, height, 
 - **Wi-Fi**: network name + signal icon (display only).
 - **Do Not Disturb**: badge in the pill while it is on.
 
-<p align="center"><img src="docs/media/bluetooth.gif" alt="Bluetooth GIF" width="720"></p>
+<p align="center"><img src="gif/bluetooth.gif" alt="Bluetooth GIF"></p>
 <p align="center"><sub><i>Bluetooth GIF</i></sub></p>
-<p align="center"><img src="docs/media/wifi.png" alt="Wi-Fi screenshot" width="720"></p>
+<p align="center"><img src="gif/wifi.png" alt="Wi-Fi screenshot"></p>
 <p align="center"><sub><i>Wi-Fi screenshot</i></sub></p>
-<p align="center"><img src="docs/media/dnd-badge.png" alt="DND badge screenshot" width="720"></p>
+<p align="center"><img src="gif/dnd.png" alt="DND badge screenshot"></p>
 <p align="center"><sub><i>DND badge screenshot</i></sub></p>
 
 ### Instant popups
 Volume, brightness, workspace switch dots, timer, Bluetooth connect / disconnect. They appear instantly, then the pill goes back to what it was showing.
 
-<p align="center"><img src="docs/media/osd-volume.gif" alt="Volume GIF" width="720"></p>
+<p align="center"><img src="gif/volume.gif" alt="Volume GIF"></p>
 <p align="center"><sub><i>Volume GIF</i></sub></p>
-<p align="center"><img src="docs/media/osd-brightness.gif" alt="Brightness GIF" width="720"></p>
+<p align="center"><img src="gif/brightness.gif" alt="Brightness GIF"></p>
 <p align="center"><sub><i>Brightness GIF</i></sub></p>
-<p align="center"><img src="docs/media/workspace.gif" alt="Workspace dots GIF" width="720"></p>
-<p align="center"><sub><i>Workspace dots GIF</i></sub></p>
-<p align="center"><img src="docs/media/timer.gif" alt="Timer GIF" width="720"></p>
+<p align="center"><img src="gif/timer.gif" alt="Timer GIF"></p>
 <p align="center"><sub><i>Timer GIF</i></sub></p>
 
 ### Weather, downloads, screen recording
@@ -88,26 +86,26 @@ Volume, brightness, workspace switch dots, timer, Bluetooth connect / disconnect
 - **Downloads**: browser downloads in your Downloads folder (name, size, speed) plus a network-speed detector for any app.
 - **Screen recording**: pulsing red dot + timer for GNOME's built-in recorder. Click to stop.
 
-<p align="center"><img src="docs/media/weather.png" alt="Weather screenshot" width="720"></p>
+<p align="center"><img src="gif/weather.png" alt="Weather screenshot"></p>
 <p align="center"><sub><i>Weather screenshot</i></sub></p>
-<p align="center"><img src="docs/media/download.gif" alt="Download GIF" width="720"></p>
+<p align="center"><img src="gif/download.gif" alt="Download GIF"></p>
 <p align="center"><sub><i>Download GIF</i></sub></p>
-<p align="center"><img src="docs/media/screen-record.gif" alt="Screen recording GIF" width="720"></p>
+<p align="center"><img src="gif/screenrecord.gif" alt="Screen recording GIF""></p>
 <p align="center"><sub><i>Screen recording GIF</i></sub></p>
 
 ### Badges and the green dot
 - Small icons at the left of the pill for **Do Not Disturb**, **Caffeine** (keep awake) and **Airplane mode**.
 - iOS-style **green dot** shown while the microphone is in use. Move it: left / middle / right / custom offset, or just click it to hop between positions.
 
-<p align="center"><img src="docs/media/caffeine-airplane.png" alt="Caffeine + airplane badges" width="720"></p>
-<p align="center"><sub><i>Caffeine + airplane badges</i></sub></p>
-<p align="center"><img src="docs/media/green-dot.gif" alt="Green dot GIF" width="720"></p>
+<p align="center"><img src="gif/caffeine.png" alt="Caffeine badge"></p>
+<p align="center"><sub><i>Caffeine badge</i></sub></p>
+<p align="center"><img src="gif/green_dot.gif" alt="Green dot GIF"></p>
 <p align="center"><sub><i>Green dot GIF</i></sub></p>
 
 ### Cats
 Every N seconds a cat takes over the pill and runs across it, then the previous view returns. Nine cats, seven effects, random speed, direction control. See [Cats](#cats).
 
-<p align="center"><img src="docs/media/cats.gif" alt="Cats GIF" width="720"></p>
+<p align="center"><img src="gif/cat.gif" alt="Cats GIF"></p>
 <p align="center"><sub><i>Cats GIF</i></sub></p>
 
 ---
