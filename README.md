@@ -6,10 +6,6 @@
   <img alt="Wayland" src="https://img.shields.io/badge/Wayland-ready-green">
   <img alt="License" src="https://img.shields.io/badge/license-add%20yours-lightgrey">
 </p>
-
-<p align="center"><img src="docs/media/hero.gif" alt="Hero GIF" ></p>
-<p align="center"><sub><i>Hero GIF — the pill expanding, showing music, a notification, then the cat</i></sub></p>
-
 ---
 
 ## Contents
@@ -163,21 +159,21 @@ The popup grows out of the pill (the pill hides while it is open).
 | Controls | Volume, brightness, Wi-Fi, Bluetooth, DND, Night Light, dark style, caffeine, airplane, lock |
 | Timer | Countdown with presets, shown in the pill |
 
-<p align="center"><img src="docs/media/popup-home.png" alt="Home tab" width="720"></p>
+<p align="center"><img src="gif/home_tab.png" alt="Home tab"></p>
 <p align="center"><sub><i>Home tab</i></sub></p>
-<p align="center"><img src="docs/media/popup-calendar.png" alt="Calendar tab" width="720"></p>
+<p align="center"><img src="gif/calendar_tab.png" alt="Calendar tab"></p>
 <p align="center"><sub><i>Calendar tab</i></sub></p>
-<p align="center"><img src="docs/media/popup-weather.png" alt="Weather tab" width="720"></p>
+<p align="center"><img src="gif/weather_tab.png" alt="Weather tab"></p>
 <p align="center"><sub><i>Weather tab</i></sub></p>
-<p align="center"><img src="docs/media/popup-apps.png" alt="Apps tab" width="720"></p>
+<p align="center"><img src="gif/apps_tab.png" alt="Apps tab"></p>
 <p align="center"><sub><i>Apps tab</i></sub></p>
-<p align="center"><img src="docs/media/popup-clipboard.png" alt="Clipboard tab" width="720"></p>
+<p align="center"><img src="gif/clipboard_tab.png" alt="Clipboard tab"></p>
 <p align="center"><sub><i>Clipboard tab</i></sub></p>
-<p align="center"><img src="docs/media/popup-shelf.png" alt="File shelf tab" width="720"></p>
+<p align="center"><img src="gif/fileshelf_tab.png" alt="File shelf tab"></p>
 <p align="center"><sub><i>File shelf tab</i></sub></p>
-<p align="center"><img src="docs/media/popup-controls.png" alt="Controls tab" width="720"></p>
+<p align="center"><img src="gif/controls_tab.png" alt="Controls tab"></p>
 <p align="center"><sub><i>Controls tab</i></sub></p>
-<p align="center"><img src="docs/media/popup-timer.png" alt="Timer tab" width="720"></p>
+<p align="center"><img src="gif_timer_tab.png" alt="Timer tab"></p>
 <p align="center"><sub><i>Timer tab</i></sub></p>
 
 ---
@@ -193,13 +189,13 @@ The popup grows out of the pill (the pill hides while it is open).
 | Activities | Which activities show, notification size and time, downloads, screen recording, **cat** options |
 | Panel | Clipboard, calendar, timer, weather city and units |
 
-<p align="center"><img src="docs/media/prefs-general.png" alt="Settings: General" width="720"></p>
+<p align="center"><img src="gif/setting_general.png" alt="Settings: General"></p>
 <p align="center"><sub><i>Settings: General</i></sub></p>
-<p align="center"><img src="docs/media/prefs-appearance.png" alt="Settings: Appearance" width="720"></p>
+<p align="center"><img src="gif/setting_appearance.png" alt="Settings: Appearance"></p>
 <p align="center"><sub><i>Settings: Appearance</i></sub></p>
-<p align="center"><img src="docs/media/prefs-activities.png" alt="Settings: Activities" width="720"></p>
+<p align="center"><img src="gif/setting_activities.png" alt="Settings: Activities"></p>
 <p align="center"><sub><i>Settings: Activities</i></sub></p>
-<p align="center"><img src="docs/media/prefs-panel.png" alt="Settings: Panel" width="720"></p>
+<p align="center"><img src="gif/setting_panel.png" alt="Settings: Panel"></p>
 <p align="center"><sub><i>Settings: Panel</i></sub></p>
 
 ---
@@ -221,7 +217,7 @@ The popup grows out of the pill (the pill hides while it is open).
 **Effects:** paw prints, sparkles, hearts, dust puffs, speed lines, none, or random.
 **Cat = Random** picks a different cat every time. Speed is random between your slowest and fastest value. Direction: left to right, right to left, alternate, random. "Run" in settings previews it.
 
-<p align="center"><img src="docs/media/cat-effects.gif" alt="Cat effects GIF" width="720"></p>
+<p align="center"><img src="gif/cat.gif" alt="Cat effects GIF"></p>
 <p align="center"><sub><i>Cat effects GIF</i></sub></p>
 
 ---
