@@ -6,7 +6,7 @@
   <img alt="Wayland" src="https://img.shields.io/badge/Wayland-ready-green">
   <img alt="License" src="https://img.shields.io/badge/license-add%20yours-lightgrey">
 </p>
----
+
 
 ## Contents
 - [Features](#features)
