@@ -1,11 +1,13 @@
-<h1 align="center">Minie Pill</h1>
-<p align="center">A Dynamic-Island style pill for the GNOME Shell top bar.<br>Clock, music + synced lyrics, notifications, Bluetooth, Wi-Fi, downloads, screen recording, a spring-physics popup, and a cat that runs across it.</p>
+<div align="center">
+  # Minie-Pill
+**A Dynamic-Island style pill for the GNOME Shell top bar.<br>Clock, music + synced lyrics, notifications, Bluetooth, Wi-Fi, downloads, screen recording, a spring-physics popup, and a cat that runs across it.**
 
-<p align="center">
-  <img alt="GNOME Shell" src="https://img.shields.io/badge/GNOME%20Shell-49%20%7C%2050-4A86CF">
-  <img alt="Wayland" src="https://img.shields.io/badge/Wayland-ready-green">
-  <img alt="License" src="https://img.shields.io/badge/license-add%20yours-lightgrey">
-</p>
+
+![GNOME Shell](https://img.shields.io/badge/GNOME%20Shell-50-4A86CF?logo=gnome&logoColor=white)
+![License](https://img.shields.io/badge/license-GPL--3.0--or--later-blue)
+![Status](https://img.shields.io/badge/status-early%20release-orange)
+![Language](https://img.shields.io/badge/language-JavaScript%20(GJS)-yellow)
+</div>
 
 
 ## Contents
