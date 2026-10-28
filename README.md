@@ -222,9 +222,9 @@ The popup grows out of the pill (the pill hides while it is open).
 <p align="center"><img src="gif/cat.gif" alt="Cat effects GIF"></p>
 <p align="center"><sub><i>Cat effects GIF</i></sub></p>
 
-## why minie-pill?
+## Why minie-pill?
 #### **Why is it called 'minie-pill' ?**
-**because i once had a cat named MINIE,but one day,she went missing and never came back.So i named this 'minie-pill' in memory of my minie**
+because i once had a cat named **MINIE**,but one day,she went missing and never came back.So i named this 'minie-pill' in memory of my minie
 
 ---
 
