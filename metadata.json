@@ -3,6 +3,7 @@
   "name": "Minie Pill",
   "description": "Dynamic-island style pill for GNOME Shell: clock, music + lyrics, timer, notifications, Bluetooth, Wi-Fi, DND, OSD, plus an expandable panel (calendar, weather, apps, clipboard, file shelf, controls).",
   "shell-version": ["49", "50"],
+  "url": "https://github.com/yourtoxic/minie-pill",
   "settings-schema": "org.gnome.shell.extensions.minie-pill",
   "gettext-domain": "minie-pill",
   "version": 1
