@@ -15,6 +15,7 @@
 - [Popup tabs](#popup-tabs)
 - [Settings](#settings)
 - [Cats](#cats)
+- [why minie-pill?](#why-minie-pill?)
 - [Performance](#performance)
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
@@ -214,9 +215,12 @@ The popup grows out of the pill (the pill hides while it is open).
 | Skateboarding | sitting cat on a board |
 | Cat with a kitten | mother + small kitten |
 
+## why minie-pill?
 #### **Why is it called 'minie-pill' ?**
 **because i once had a cat named MINIE,but one day,she went missing and never came back.So i named this 'minie-pill' in memory of my minie**
+
 **Effects:** paw prints, sparkles, hearts, dust puffs, speed lines, none, or random.
+
 **Cat = Random** picks a different cat every time. Speed is random between your slowest and fastest value. Direction: left to right, right to left, alternate, random. "Run" in settings previews it.
 
 <p align="center"><img src="gif/cat.gif" alt="Cat effects GIF"></p>
