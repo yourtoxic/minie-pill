@@ -215,7 +215,7 @@ The popup grows out of the pill (the pill hides while it is open).
 | Skateboarding | sitting cat on a board |
 | Cat with a kitten | mother + small kitten |
 
-## why minie-pill?
+## why minie pill?
 #### **Why is it called 'minie-pill' ?**
 **because i once had a cat named MINIE,but one day,she went missing and never came back.So i named this 'minie-pill' in memory of my minie**
 
