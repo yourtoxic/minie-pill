@@ -1,5 +1,7 @@
 <div align="center">
+  
   # Minie-Pill
+  
 **A Dynamic-Island style pill for the GNOME Shell top bar.<br>Clock, music + synced lyrics, notifications, Bluetooth, Wi-Fi, downloads, screen recording, a spring-physics popup, and a cat that runs across it.**
 
 
