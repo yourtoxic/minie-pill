@@ -15,7 +15,7 @@
 - [Popup tabs](#popup-tabs)
 - [Settings](#settings)
 - [Cats](#cats)
-- [why minie-pill?](#why-minie-pill?)
+- [why minie pill?](#why-minie-pill-?)
 - [Performance](#performance)
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
