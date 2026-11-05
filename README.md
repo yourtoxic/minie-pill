@@ -266,8 +266,8 @@ journalctl -f -o cat /usr/bin/gnome-shell | grep -i minie
 
 - Weather: [Open-Meteo](https://open-meteo.com)
 - Lyrics: [lrclib.net](https://lrclib.net)
-- Made by **&lt;your name&gt;**
-- License: **&lt;add a license&gt;**
+- Made by **&lt;MD TAJRIYAN RAHMAN&gt;**
+- License: **&lt; GNU GENERAL PUBLIC LICENSE&gt;**
 
 ## Changelog
 
